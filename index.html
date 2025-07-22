@@ -1,35 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ROMAE - Aromas artesanales</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romae</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fdfcf9;
+      color: #222;
+    }
+    header {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .menu-icon, .search-cart {
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .logo-container {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+    .logo-container img {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+    }
+    .info-text {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #444;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>ROMAE</h1>
-    <p>Aromas artesanales que transforman tu hogar</p>
+    <div class="menu-icon">☰</div>
+    <div class="search-cart">
+      🔍 🛒
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Nuestros productos</h2>
-      <ul>
-        <li>🕯️ Velas artesanales</li>
-        <li>🌿 Sprays aromáticos</li>
-        <li>👗 Saquitos para ropa</li>
-        <li>💄 Bálsamos labiales</li>
-        <li>🖐️ Crema de manos</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Contacto</h2>
-      <p>📩 contacto.romae@gmail.com</p>
-      <p>📷 Instagram: <a href="https://instagram.com/romae.home" target="_blank">@romae.home</a></p>
-    </section>
-  </main>
+
+  <div class="logo-container">
+    <img src="IMG_5118D081-9D1A-4348-95F8-D0D7D88C632A.jpeg" alt="Logo Romae">
+  </div>
+
+  <div class="info-text">
+    <p>Disfruta de envío gratuito en pedidos a partir de 23€</p>
+    <p>Para pedidos inferiores, tarifa plana de solo 5€</p>
+  </div>
+
   <footer>
-    <p>&copy; 2025 ROMAE. Todos los derechos reservados.</p>
+    <p>📧 <a href="mailto:contacto.romae@gmail.com">contacto.romae@gmail.com</a></p>
+    <p>📷 <a href="https://www.instagram.com/romae.aromas" target="_blank">@romae.aromas</a></p>
   </footer>
 </body>
 </html>
